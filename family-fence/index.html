@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Family Fence — Fence Installation in Winter Haven, FL</title>
+<meta name="description" content="Family Fence installs custom wood, vinyl, aluminum & chain-link fences across Winter Haven, FL. Free estimates, licensed & insured.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="../img/hero.jpg">
+<style>
+  :root{
+    --blue:#1d4ed8;        /* royal blue brand */
+    --blue-d:#0a1f52;      /* deep navy sections */
+    --blue-d2:#061436;     /* near-black navy */
+    --blue-l:#16357f;      /* card navy */
+    --gold:#f6b911;        /* golden yellow accent / CTA */
+    --gold-d:#d99e06;
+    --ink:#0d1830;
+    --grey:#5b6b85;
+    --bg:#eef3fb;
+    --line:#e1e8f3;
+    --white:#fff;
+    --black:#0b0f1a;       /* black accent section */
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth;overflow-x:clip}
+  body{font-family:'Inter',system-ui,-apple-system,sans-serif;color:var(--ink);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:clip;max-width:100%}
+  h1,h2,h3,h4,.disp{font-family:'Anton',sans-serif;font-weight:400;letter-spacing:.005em;line-height:1.02;text-transform:uppercase}
+  img{display:block;max-width:100%}
+  a{text-decoration:none;color:inherit}
+  .wrap{max-width:1220px;margin:0 auto;padding:0 24px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-family:'Inter';font-weight:800;border-radius:999px;padding:15px 28px;font-size:15px;cursor:pointer;border:0;transition:.18s ease;text-transform:uppercase;letter-spacing:.03em;white-space:nowrap}
+  .btn svg{width:17px;height:17px}
+  .btn-gold{background:var(--gold);color:var(--blue-d2);box-shadow:0 10px 24px -10px rgba(246,185,17,.8)}
+  .btn-gold:hover{background:var(--gold-d);transform:translateY(-1px)}
+  .btn-blue{background:var(--blue);color:#fff}
+  .btn-blue:hover{background:#1741b8}
+  .btn-white{background:#fff;color:var(--blue-d);box-shadow:0 8px 20px -10px rgba(0,0,0,.35)}
+  .btn-white:hover{background:#eef3fb}
+  .btn-ghost{background:rgba(255,255,255,.07);color:#fff;border:1.5px solid rgba(255,255,255,.45)}
+  .btn-ghost:hover{background:rgba(255,255,255,.16)}
+  .eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--blue);font-weight:800;font-size:12.5px;text-transform:uppercase;letter-spacing:.13em;margin-bottom:15px}
+  .eyebrow::before{content:"";width:24px;height:3px;background:var(--gold);border-radius:2px}
+  .eyebrow.c{justify-content:center}
+  .stars{color:var(--gold);letter-spacing:1px}
+  .hc{text-align:center;max-width:680px;margin:0 auto 50px}
+  .hc .eyebrow{justify-content:center}
+  h2{font-size:43px;color:var(--blue-d);margin-bottom:14px}
+  .lead{color:var(--grey);font-size:17.5px;max-width:620px}
+  section{padding:84px 0}
+
+  /* ===== topbar ===== */
+  .top{background:var(--blue-d2);color:#aebdda;font-size:13px}
+  .top-in{display:flex;justify-content:space-between;align-items:center;height:44px;gap:10px}
+  .top .l{display:flex;align-items:center;gap:9px}
+  .top a{color:#fff;font-weight:600}
+  .top .r{display:flex;gap:22px;align-items:center}
+  .top .div{color:#33457a}
+
+  /* ===== header ===== */
+  header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 2px 14px -8px rgba(10,31,82,.3)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:78px;gap:20px}
+  .brand{display:flex;align-items:center;gap:11px}
+  .brand .mk{width:44px;height:44px;flex:none}
+  .brand .nm{font-family:'Anton';font-size:23px;color:var(--blue-d);text-transform:uppercase;letter-spacing:.01em;line-height:1}
+  .brand .nm span{color:var(--gold)}
+  .brand .sub{font-size:10.5px;color:var(--grey);font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+  .nav-links{display:flex;gap:26px;color:var(--ink);font-weight:600;font-size:14.5px}
+  .nav-links a{position:relative;padding:4px 0}
+  .nav-links a:hover{color:var(--blue)}
+  .nav-right{display:flex;align-items:center;gap:18px}
+  .nav-ph{display:flex;align-items:center;gap:9px}
+  .nav-ph .ic{width:38px;height:38px;border-radius:50%;background:#eaf0fc;color:var(--blue);display:flex;align-items:center;justify-content:center;flex:none}
+  .nav-ph .ic svg{width:18px;height:18px}
+  .nav-ph .t{line-height:1.1}
+  .nav-ph .t b{font-family:'Anton';font-size:18px;color:var(--blue-d);letter-spacing:.01em}
+  .nav-ph .t span{display:block;font-size:11px;color:var(--grey);font-weight:600}
+
+  /* ===== hero ===== */
+  .hero{position:relative;color:#fff;background:linear-gradient(104deg,rgba(6,20,54,.94) 0%,rgba(10,31,82,.84) 42%,rgba(13,42,108,.46) 100%),url('../img/hero.jpg') center/cover;overflow:hidden}
+  .hero::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:64px;background:#fff;clip-path:polygon(0 100%,100% 100%,100% 0,0 64px)}
+  .hero-in{position:relative;z-index:2;padding:70px 0 110px;max-width:680px}
+  .rate-row{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:24px}
+  .rate{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.16);padding:8px 14px;border-radius:999px;font-size:13px;font-weight:600;color:#eaf0fc}
+  .rate b{font-weight:800;color:#fff}
+  .rate .stars{font-size:12px}
+  h1{font-size:62px;margin-bottom:20px;letter-spacing:.01em;overflow-wrap:break-word}
+  h1 .o{color:var(--gold)}
+  .hero p.sub{font-size:18.5px;color:#d4ddf0;margin-bottom:26px;max-width:560px;font-weight:500;text-transform:none}
+  .checks{display:flex;gap:10px 26px;flex-wrap:wrap;margin-bottom:32px}
+  .checks span{display:flex;align-items:center;gap:9px;font-size:14.5px;font-weight:600;color:#eaf0fc}
+  .checks span svg{width:20px;height:20px;flex:none;color:var(--gold)}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+
+  /* ===== stats ===== */
+  .stats{background:var(--gold)}
+  .stats-in{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;padding:30px 0}
+  .stat{text-align:center;border-right:1px solid rgba(11,15,26,.16)}
+  .stat:last-child{border:0}
+  .stat .n{font-family:'Anton';font-size:42px;color:var(--blue-d2);line-height:1}
+  .stat .l{color:#4a3a06;font-size:13.5px;margin-top:5px;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+
+  /* ===== about ===== */
+  .about-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:58px;align-items:center}
+  .about-img{position:relative;border-radius:18px;overflow:hidden;aspect-ratio:4/3.4;background:url('../img/about.jpg') center/cover;box-shadow:0 30px 60px -30px rgba(10,31,82,.5)}
+  .about-img .badge{position:absolute;left:16px;bottom:16px;background:var(--blue);color:#fff;border-radius:14px;padding:18px 22px;text-align:center;box-shadow:0 18px 36px -16px rgba(29,78,216,.8)}
+  .about-img .badge .n{font-family:'Anton';font-size:40px;line-height:.95;color:var(--gold)}
+  .about-img .badge .l{font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;margin-top:3px}
+  .ablist{margin:24px 0 30px;display:grid;gap:14px}
+  .abrow{display:flex;gap:13px;align-items:flex-start}
+  .abrow .ck{flex:none;width:28px;height:28px;border-radius:8px;background:#eaf0fc;color:var(--blue);display:flex;align-items:center;justify-content:center}
+  .abrow .ck svg{width:17px;height:17px;stroke-width:3}
+  .abrow h4{font-family:'Inter';font-weight:800;font-size:16px;color:var(--blue-d);text-transform:none;letter-spacing:0;margin-bottom:1px}
+  .abrow p{color:var(--grey);font-size:14.5px}
+
+  /* ===== services ===== */
+  .services{background:var(--bg)}
+  .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .svc{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:.2s ease;display:flex;flex-direction:column}
+  .svc:hover{transform:translateY(-6px);box-shadow:0 30px 56px -30px rgba(10,31,82,.45);border-color:#cfdcf3}
+  .svc .ph{height:188px;background-size:cover;background-position:center;position:relative}
+  .svc .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 45%,rgba(6,20,54,.55))}
+  .svc .ic{position:absolute;z-index:2;left:18px;bottom:-22px;width:52px;height:52px;border-radius:13px;background:var(--gold);color:var(--blue-d2);display:flex;align-items:center;justify-content:center;box-shadow:0 10px 20px -8px rgba(246,185,17,.8)}
+  .svc .ic svg{width:26px;height:26px;stroke-width:2.1}
+  .svc .body{padding:34px 24px 24px;display:flex;flex-direction:column;flex:1}
+  .svc h3{font-family:'Inter';font-weight:800;font-size:19px;color:var(--blue-d);text-transform:none;letter-spacing:0;margin-bottom:8px}
+  .svc p{color:var(--grey);font-size:14.5px;margin-bottom:16px;flex:1}
+  .svc .more{color:var(--blue);font-weight:800;font-size:13px;text-transform:uppercase;letter-spacing:.04em;display:inline-flex;align-items:center;gap:7px}
+  .svc .more svg{width:15px;height:15px;transition:.18s}
+  .svc:hover .more svg{transform:translateX(4px)}
+  .svc-foot{text-align:center;margin-top:46px}
+
+  /* ===== how it works ===== */
+  .how{background:var(--blue-d);color:#fff}
+  .how h2{color:#fff}
+  .how .lead{color:#aebdda}
+  .how-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:52px}
+  .step{position:relative;padding:0 6px}
+  .step .num{width:66px;height:66px;border-radius:50%;background:rgba(255,255,255,.06);border:2px solid var(--gold);color:var(--gold);font-family:'Anton';font-size:27px;display:flex;align-items:center;justify-content:center;margin-bottom:20px}
+  .step h4{font-family:'Inter';font-weight:800;font-size:18px;color:#fff;text-transform:none;letter-spacing:0;margin-bottom:7px}
+  .step p{color:#aebdda;font-size:14.5px}
+  .step .ln{position:absolute;top:33px;left:78px;right:0;height:2px;background:repeating-linear-gradient(90deg,rgba(246,185,17,.55) 0 7px,transparent 7px 14px)}
+  .step:last-child .ln{display:none}
+
+  /* ===== gallery (black) ===== */
+  .work{background:var(--black);color:#fff}
+  .work h2{color:#fff}
+  .work .lead{color:#9aa6bd}
+  .gal{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:48px}
+  .gcard{position:relative;border-radius:14px;overflow:hidden;aspect-ratio:4/3.2;background-size:cover;background-position:center}
+  .gcard::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 50%,rgba(0,0,0,.72))}
+  .gcard .tag{position:absolute;z-index:2;left:14px;bottom:14px;color:#fff}
+  .gcard .tag b{display:block;font-family:'Inter';font-weight:800;font-size:16px}
+  .gcard .tag span{font-size:12.5px;color:var(--gold);font-weight:700;text-transform:uppercase;letter-spacing:.05em}
+
+  /* ===== reviews ===== */
+  .rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:48px}
+  .rcard{background:#fff;border:1px solid var(--line);border-radius:16px;padding:28px}
+  .rcard .st{color:var(--gold);font-size:17px;letter-spacing:2px;margin-bottom:13px}
+  .rcard p{color:#33415c;font-size:15.5px;margin-bottom:18px;line-height:1.65}
+  .rcard .who{display:flex;align-items:center;gap:12px}
+  .rcard .av{width:46px;height:46px;border-radius:50%;object-fit:cover;background:var(--blue);flex:none}
+  .rcard .nm{font-weight:800;font-size:14.5px;color:var(--blue-d)}
+  .rcard .lc{font-size:12.5px;color:var(--grey)}
+
+  /* ===== cta ===== */
+  .cta{background:linear-gradient(rgba(6,20,54,.92),rgba(10,31,82,.93)),url('../img/cta.jpg') center/cover;color:#fff}
+  .cta-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center}
+  .cta h2{color:#fff;font-size:46px}
+  .cta p{color:#d4ddf0;font-size:18px;margin-top:12px;font-weight:500}
+  .cta .feat{display:grid;gap:11px;margin-top:24px}
+  .cta .feat span{display:flex;align-items:center;gap:11px;font-size:15px;color:#eaf0fc;font-weight:600}
+  .cta .feat svg{width:20px;height:20px;color:var(--gold);flex:none}
+  .cta .ph{font-family:'Anton';font-size:30px;margin-top:26px;display:flex;align-items:center;gap:12px}
+  .cta .ph svg{width:27px;height:27px;color:var(--gold)}
+  .fcard{background:#fff;border-radius:18px;padding:32px;color:var(--ink);box-shadow:0 40px 70px -30px rgba(0,0,0,.5)}
+  .fcard h3{font-family:'Anton';color:var(--blue-d);font-size:25px;margin-bottom:4px}
+  .fcard .s{color:var(--grey);font-size:14px;margin-bottom:20px}
+  .fcard label{font-size:12px;font-weight:700;color:#3a4a64;text-transform:uppercase;letter-spacing:.04em;display:block;margin-bottom:6px}
+  .fcard input,.fcard select{width:100%;height:50px;border:1.5px solid var(--line);border-radius:11px;padding:0 15px;font-size:15px;font-family:inherit;margin-bottom:15px;background:#fff;color:var(--ink)}
+  .fcard input:focus,.fcard select:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(29,78,216,.13)}
+  .fcard .btn-gold{width:100%;height:54px;font-size:16px}
+  .fcard .fine{font-size:12px;color:var(--grey);text-align:center;margin-top:12px}
+
+  /* ===== footer ===== */
+  footer{background:var(--blue-d2);color:#9aabce;padding:62px 0 26px;font-size:14.5px}
+  .foot{display:grid;grid-template-columns:2fr 1fr 1fr 1.3fr;gap:38px;margin-bottom:38px}
+  footer h5{color:#fff;font-family:'Inter';font-weight:800;font-size:14px;margin-bottom:16px;text-transform:uppercase;letter-spacing:.05em}
+  footer a{display:block;color:#9aabce;margin-bottom:7px;padding:3px 0}
+  footer a:hover{color:#fff}
+  .foot .brand .nm{color:#fff}
+  .foot p{max-width:300px;color:#8c9dc0;margin-top:14px}
+  .fbadges{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+  .fbadges span{font-size:11.5px;font-weight:700;color:#cdd8ef;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);padding:6px 11px;border-radius:999px}
+  .fbar{border-top:1px solid #16264e;padding-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:13px;color:#6b7da3}
+
+  /* focus visibility */
+  a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:6px}
+
+  /* a11y helpers */
+  section[id],.stats{scroll-margin-top:132px}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+  .skip-link{position:absolute;left:12px;top:-50px;z-index:100;background:var(--gold);color:var(--blue-d2);font-weight:800;padding:10px 18px;border-radius:0 0 10px 10px;transition:top .15s}
+  .skip-link:focus{top:0}
+  .fline{display:block;color:#9aabce;margin-bottom:10px}
+
+  /* tablet-landscape / small-laptop: relieve header crowding */
+  @media(max-width:1120px){
+    .nav-ph{display:none}
+    .nav-links{gap:20px;font-size:14px}
+    .brand .nm{font-size:21px}
+  }
+  /* ===== responsive ===== */
+  @media(max-width:980px){
+    .nav-links,.top .hide{display:none}
+    h1{font-size:44px} h2,.cta h2{font-size:33px}
+    .about-grid,.cta-grid{grid-template-columns:1fr;gap:38px}
+    .svc-grid,.gal,.rev-grid{grid-template-columns:1fr 1fr}
+    .how-grid{grid-template-columns:1fr 1fr;gap:34px}
+    .step .ln{display:none}
+    .stats-in{grid-template-columns:1fr 1fr;gap:24px 14px}
+    .stat:nth-child(2){border:0}
+    .foot{grid-template-columns:1fr 1fr}
+  }
+  @media(max-width:600px){
+    section{padding:60px 0}
+    h1{font-size:33px}
+    .svc-grid,.gal,.rev-grid,.how-grid{grid-template-columns:1fr}
+    .nav{height:62px;gap:8px}
+    .nav-ph{display:none}
+    .brand .sub{display:none}
+    .brand .mk{width:38px;height:38px}
+    .brand .nm{font-size:18px}
+    .nav-right .btn-gold{padding:11px 14px;font-size:12.5px;letter-spacing:.02em}
+    .top-in{height:auto;min-height:40px;flex-wrap:wrap;gap:1px 12px;padding:6px 0;font-size:11.5px;line-height:1.35}
+    .wrap{padding:0 16px}
+    .hero-cta .btn,.hero-cta{width:100%}
+    .foot{grid-template-columns:1fr}
+  }
+  @media(max-width:360px){
+    h1{font-size:29px}
+    .brand .nm{font-size:16px}
+    .nav-right .btn-gold{padding:10px 12px;font-size:11.5px}
+  }
+  @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to content</a>
+
+<!-- ===== TOPBAR ===== -->
+<div class="top"><div class="wrap top-in">
+  <div class="l"><span class="stars" aria-hidden="true">★★★★★</span> <span class="hide">Winter Haven’s trusted fence contractor</span> · Licensed · Bonded · Insured</div>
+  <div class="r"><a href="tel:+18634581006">(863) 458-1006</a><span class="div hide">|</span><span class="hide">Mon–Sat 7:00a–6:00p</span></div>
+</div></div>
+
+<!-- ===== HEADER ===== -->
+<header><div class="wrap nav">
+  <a href="#top" class="brand" aria-label="Family Fence home">
+    <svg class="mk" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 3 6 9v12c0 11 7.4 18.8 18 22 10.6-3.2 18-11 18-22V9z" fill="#1d4ed8"/><path d="M24 3 6 9v12c0 11 7.4 18.8 18 22 10.6-3.2 18-11 18-22V9z" stroke="#0a1f52" stroke-width="1.5"/><path d="M16 19v12M20 16v15M24 14v17M28 16v15M32 19v12" stroke="#f6b911" stroke-width="2.4" stroke-linecap="round"/><path d="M13 20h22" stroke="#f6b911" stroke-width="2.4" stroke-linecap="round"/></svg>
+    <span><span class="nm">FAMILY FENCE</span><span class="sub">Winter Haven, FL</span></span>
+  </a>
+  <nav class="nav-links" aria-label="Primary">
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#how">Process</a>
+    <a href="#work">Our Work</a>
+    <a href="#reviews">Reviews</a>
+  </nav>
+  <div class="nav-right">
+    <a href="tel:+18634581006" class="nav-ph">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+      <span class="t"><b>(863) 458-1006</b><span>Call for a free quote</span></span>
+    </a>
+    <a href="#estimate" class="btn btn-gold">Free estimate</a>
+  </div>
+</div></header>
+
+<main id="main-content">
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="wrap hero-in">
+    <div class="rate-row">
+      <span class="rate"><span class="stars" aria-hidden="true">★★★★★</span> <b>5-Star</b> Rated</span>
+      <span class="rate"><span class="stars" aria-hidden="true">★★★★★</span> Google Reviews</span>
+      <span class="rate"><svg viewBox="0 0 24 24" fill="none" stroke="#f6b911" stroke-width="2" style="width:15px;height:15px" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 8.5 8 10 4.6-1.5 8-5 8-10V5z"/></svg> <b>Licensed</b> &amp; Insured</span>
+    </div>
+    <h1>Upgrade your <span class="o">Winter Haven</span> property with a fence built to last</h1>
+    <p class="sub">Custom wood, vinyl, aluminum &amp; chain-link fences for Winter Haven homes &amp; businesses — measured, built, and stood behind by your local crew.</p>
+    <div class="checks">
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Free Estimates</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Licensed &amp; Insured</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Family Owned &amp; Operated</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Expert In-House Installers</span>
+    </div>
+    <div class="hero-cta">
+      <a href="#estimate" class="btn btn-gold">Get my free estimate →</a>
+      <a href="tel:+18634581006" class="btn btn-ghost"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (863) 458-1006</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS ===== -->
+<section class="stats" aria-label="Company highlights"><div class="wrap stats-in">
+  <div class="stat"><div class="n">Free</div><div class="l">On-site estimates</div></div>
+  <div class="stat"><div class="n">Custom</div><div class="l">Wood · Vinyl · Metal</div></div>
+  <div class="stat"><div class="n">Fast</div><div class="l">Quote &amp; turnaround</div></div>
+  <div class="stat"><div class="n">Local</div><div class="l">Winter Haven family-owned</div></div>
+</div></section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="about-img" role="img" aria-label="A finished custom fence in Winter Haven, FL">
+      <div class="badge"><div class="n">Free</div><div class="l">On-site<br>estimates</div></div>
+    </div>
+    <div>
+      <div class="eyebrow">About Family Fence</div>
+      <h2>Your local experts in professional fencing</h2>
+      <p class="lead">Family Fence builds custom fences for homes and businesses across Central Florida. Honest, upfront pricing and a crew that measures, builds, and stands behind every job — no surprises.</p>
+      <div class="ablist">
+        <div class="abrow"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5"/></svg></span><div><h4>Materials built for Florida weather</h4><p>Sealed cedar, heavy-gauge aluminum, and UV-stable vinyl that won't warp or fade.</p></div></div>
+        <div class="abrow"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5"/></svg></span><div><h4>Custom design &amp; honest, upfront pricing</h4><p>A detailed written quote on-site. No hidden fees, no pressure to sign.</p></div></div>
+        <div class="abrow"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5"/></svg></span><div><h4>Licensed, insured &amp; warranty-backed</h4><p>Every install is backed by a written workmanship warranty.</p></div></div>
+      </div>
+      <a href="#estimate" class="btn btn-blue">Get a free quote →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="hc">
+      <div class="eyebrow">Services we provide</div>
+      <h2>Professional fencing services</h2>
+      <p class="lead" style="margin:0 auto">From backyard privacy to commercial perimeters — custom-measured and built to last across Polk County.</p>
+    </div>
+    <div class="svc-grid">
+
+      <article class="svc">
+        <div class="ph" style="background-image:url('../img/svc-wood.jpg')"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 21V8l3-3 3 3v13M14 21V6l3-3 3 3v15M2 21h20"/></svg></span></div>
+        <div class="body"><h3>Wood Privacy Fences</h3><p>Classic cedar &amp; pine privacy fencing, sealed and built to stand up to Florida humidity for years.</p><a href="#estimate" class="more">Get a quote <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+      </article>
+
+      <article class="svc">
+        <div class="ph" style="background-image:url('../img/svc-vinyl.jpg')"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="5" width="18" height="15" rx="1"/><path d="M3 10h18M9 5v15M15 5v15"/></svg></span></div>
+        <div class="body"><h3>Vinyl Fences</h3><p>Low-maintenance, never-rot vinyl that keeps its clean look for decades — no painting, no rust.</p><a href="#estimate" class="more">Get a quote <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+      </article>
+
+      <article class="svc">
+        <div class="ph" style="background-image:url('../img/svc-aluminum.jpg')"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 21V4M9 21V4M13 21V4M17 21V4M2 9h20M2 16h20"/></svg></span></div>
+        <div class="body"><h3>Aluminum &amp; Ornamental</h3><p>Powder-coated, pool-code compliant, rust-proof metal fencing with timeless curb appeal.</p><a href="#estimate" class="more">Get a quote <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+      </article>
+
+      <article class="svc">
+        <div class="ph" style="background-image:url('../img/svc-gates.jpg')"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="6" width="8" height="14"/><rect x="13" y="6" width="8" height="14"/><path d="M2 6h20"/></svg></span></div>
+        <div class="body"><h3>Gates &amp; Automation</h3><p>Custom swing &amp; sliding gates, with keypad, intercom, and automated-opener options.</p><a href="#estimate" class="more">Get a quote <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+      </article>
+
+      <article class="svc">
+        <div class="ph" style="background-image:url('../img/svc-repair.jpg')"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14.7 6.3a4 4 0 0 0-5.6 5.6L3 18v3h3l6.1-6.1a4 4 0 0 0 5.6-5.6l-2.5 2.5-2-2z"/></svg></span></div>
+        <div class="body"><h3>Repairs &amp; Storm Damage</h3><p>Leaning posts, broken panels, hurricane damage — fixed fast, with 24/7 emergency response.</p><a href="#estimate" class="more">Get a quote <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+      </article>
+
+      <article class="svc">
+        <div class="ph" style="background-image:url('../img/svc-commercial.jpg')"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 21V8l5-3 5 3v13M13 21V11l4-2 4 2v10M2 21h20"/></svg></span></div>
+        <div class="body"><h3>Commercial &amp; Security</h3><p>Chain-link, security, and perimeter fencing for businesses and properties across Polk County.</p><a href="#estimate" class="more">Get a quote <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+      </article>
+
+    </div>
+    <div class="svc-foot"><a href="#estimate" class="btn btn-gold">Book a service near you →</a></div>
+  </div>
+</section>
+
+<!-- ===== HOW IT WORKS ===== -->
+<section class="how" id="how">
+  <div class="wrap">
+    <div class="hc">
+      <div class="eyebrow c" style="color:var(--gold)">How it works</div>
+      <h2>From quote to installed in 4 simple steps</h2>
+      <p class="lead" style="margin:0 auto">We keep it straightforward — most projects go from first call to finished fence in under two weeks.</p>
+    </div>
+    <div class="how-grid">
+      <div class="step"><div class="ln"></div><div class="num">1</div><h4>Request a free estimate</h4><p>Call or fill out the form — tell us about your project in about 60 seconds.</p></div>
+      <div class="step"><div class="ln"></div><div class="num">2</div><h4>Free on-site measure</h4><p>We visit, measure, talk materials, and hand you a clear written quote.</p></div>
+      <div class="step"><div class="ln"></div><div class="num">3</div><h4>We permit &amp; build</h4><p>Our own crew pulls permits and installs — no subcontractors on your property.</p></div>
+      <div class="step"><div class="num">4</div><h4>Walk-through &amp; warranty</h4><p>Final inspection together, then your written workmanship warranty.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== OUR WORK (BLACK) ===== -->
+<section class="work" id="work">
+  <div class="wrap">
+    <div class="hc">
+      <div class="eyebrow c" style="color:var(--gold)">Real projects. Real results.</div>
+      <h2>Recent fence installations</h2>
+      <p class="lead" style="margin:0 auto">A look at fences we’ve built for homes and businesses across Polk County.</p>
+    </div>
+    <div class="gal">
+      <div class="gcard" role="img" aria-label="White picket fence installation in Winter Haven, FL" style="background-image:url('../img/gallery1.jpg')"><div class="tag"><span>White Picket · 180 ft</span><b>Winter Haven, FL</b></div></div>
+      <div class="gcard" role="img" aria-label="Aluminum fence and gate installation in Lakeland, FL" style="background-image:url('../img/gallery2.jpg')"><div class="tag"><span>Aluminum &amp; Gate</span><b>Lakeland, FL</b></div></div>
+      <div class="gcard" role="img" aria-label="Wood privacy fence installation in Auburndale, FL" style="background-image:url('../img/gallery3.jpg')"><div class="tag"><span>Wood Privacy · 6 ft</span><b>Auburndale, FL</b></div></div>
+      <div class="gcard" role="img" aria-label="Custom wood driveway gate installation in Bartow, FL" style="background-image:url('../img/gallery4.jpg')"><div class="tag"><span>Wood Driveway Gate</span><b>Bartow, FL</b></div></div>
+      <div class="gcard" role="img" aria-label="Ornamental iron fence installation in Haines City, FL" style="background-image:url('../img/gallery5.jpg')"><div class="tag"><span>Ornamental Iron</span><b>Haines City, FL</b></div></div>
+      <div class="gcard" role="img" aria-label="Backyard wood privacy fence installation in Dundee, FL" style="background-image:url('../img/gallery6.jpg')"><div class="tag"><span>Backyard Privacy</span><b>Dundee, FL</b></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== REVIEWS ===== -->
+<section id="reviews">
+  <div class="wrap">
+    <div class="hc">
+      <div class="eyebrow c">What neighbors say</div>
+      <h2>Trusted by Winter Haven-area homeowners</h2>
+    </div>
+    <div class="rev-grid">
+      <article class="rcard"><div class="st" role="img" aria-label="Rated 5 out of 5 stars">★★★★★</div><p>"Quoted on-site, started exactly when they said, and finished a day early. The privacy fence looks incredible and the crew cleaned up everything before they left."</p><div class="who"><img class="av" src="../img/avatar-1.jpg" alt="" width="46" height="46" loading="lazy"><div><div class="nm">Marisa K.</div><div class="lc">Winter Haven, FL</div></div></div></article>
+      <article class="rcard"><div class="st" role="img" aria-label="Rated 5 out of 5 stars">★★★★★</div><p>"Got three quotes — Family Fence wasn’t the cheapest, but the honest pricing and the quality sold us. Zero regrets. The aluminum fence around the pool is rock solid."</p><div class="who"><img class="av" src="../img/avatar-2.jpg" alt="" width="46" height="46" loading="lazy"><div><div class="nm">Dwayne P.</div><div class="lc">Lakeland, FL</div></div></div></article>
+      <article class="rcard"><div class="st" role="img" aria-label="Rated 5 out of 5 stars">★★★★★</div><p>"A storm took out half my fence. They had a new one up within a week and handled the permit for me. Total lifesavers — I’ve already recommended them twice."</p><div class="who"><img class="av" src="../img/avatar-3.jpg" alt="" width="46" height="46" loading="lazy"><div><div class="nm">Sandra L.</div><div class="lc">Auburndale, FL</div></div></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA + FORM ===== -->
+<section class="cta" id="estimate">
+  <div class="wrap cta-grid">
+    <div>
+      <div class="eyebrow" style="color:#fff">Ready when you are</div>
+      <h2>Get your free fence estimate today</h2>
+      <p>Tell us about your project — we'll measure, give you a clear written quote, and you decide. No pressure, ever.</p>
+      <div class="feat">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Same-day reply, free on-site measure</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Licensed, insured &amp; warranty-backed</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Locally owned — serving Polk County</span>
+      </div>
+      <div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (863) 458-1006</div>
+    </div>
+    <div class="fcard">
+      <h3>Request a free estimate</h3>
+      <div class="s">Most homeowners get a quote within 24 hours.</div>
+      <form onsubmit="var b=this.querySelector('button.btn-gold');b.textContent='✓ Request sent — we\'ll call within 24h';b.style.background='#16a34a';b.style.color='#fff';return false">
+        <label for="f-name">Full name</label>
+        <input id="f-name" type="text" name="name" placeholder="Jane Smith" autocomplete="name">
+        <label for="f-phone">Phone</label>
+        <input id="f-phone" type="tel" name="phone" placeholder="(863) 000-0000" autocomplete="tel">
+        <label for="f-type">Fence type</label>
+        <select id="f-type" name="type">
+          <option value="" disabled selected>Select fence type…</option>
+          <option>Wood privacy</option>
+          <option>Vinyl</option>
+          <option>Aluminum / ornamental</option>
+          <option>Chain-link / commercial</option>
+          <option>Gate / automation</option>
+          <option>Repair / storm damage</option>
+          <option>Not sure yet</option>
+        </select>
+        <button type="submit" class="btn btn-gold">Get my free estimate</button>
+        <div class="fine">No obligation. We never share your info.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer><div class="wrap">
+  <div class="foot">
+    <div>
+      <div class="brand" style="margin-bottom:6px">
+        <svg class="mk" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 3 6 9v12c0 11 7.4 18.8 18 22 10.6-3.2 18-11 18-22V9z" fill="#1d4ed8"/><path d="M16 19v12M20 16v15M24 14v17M28 16v15M32 19v12" stroke="#f6b911" stroke-width="2.4" stroke-linecap="round"/><path d="M13 20h22" stroke="#f6b911" stroke-width="2.4" stroke-linecap="round"/></svg>
+        <span><span class="nm" style="font-family:'Anton';font-size:22px">FAMILY FENCE</span></span>
+      </div>
+      <p>Winter Haven’s local fence builders — custom residential &amp; commercial fencing, installed right.</p>
+      <div class="fbadges"><span>Licensed &amp; Insured</span><span>Free Estimates</span><span>Custom Work</span></div>
+    </div>
+    <nav aria-label="Footer services"><h5>Services</h5><a href="#services">Wood privacy</a><a href="#services">Vinyl fences</a><a href="#services">Aluminum &amp; ornamental</a><a href="#services">Gates &amp; automation</a><a href="#services">Repairs &amp; commercial</a></nav>
+    <nav aria-label="Footer company"><h5>Company</h5><a href="#about">About us</a><a href="#how">Our process</a><a href="#work">Our work</a><a href="#reviews">Reviews</a><a href="#estimate">Free estimate</a></nav>
+    <div><h5>Contact</h5><a href="tel:+18634581006">(863) 458-1006</a><span class="fline">Serving Winter Haven, Lakeland, Auburndale, Bartow &amp; Haines City, FL</span><span class="fline">Mon–Sat 7:00a–6:00p</span><a href="#estimate" class="btn btn-gold" style="margin-top:8px">Free estimate</a></div>
+  </div>
+  <div class="fbar"><span>© 2026 Family Fence · Winter Haven, FL · Licensed &amp; Insured</span><span>Family-Operated · Serving Polk County</span></div>
+</div></footer>
+
+</body>
+</html>
